@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# React Hooks Lesson
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo is a sandbox for teaching my fellow Preserve graduates that I've had the chance to go hooks with. There are plenty of great resources on the web already.
+But since we have all gone through the program and I have an idea of what the missing pieces are. Hooks a newer feature and much favored the past couple years, but do to due the timing of the study plan being built this was not taught and resources were limited.
+If developing in a team setting and not working on legacy code, it's very likely that you team will not use class components and implement hooks for the features of react that we love.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+// will add info on lessons, project, and anything that may be relevant here at a later date.
 
-### `npm start`
+### Dependencies / About the repo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Typescript
+- React
+- Vite
+- Tailwindcss
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This was bootstrapped with `create-react-app --template typescript` then configured over to use `vite` replacing `react-scripts` for development and build. Learn more [Vite.js here](https://vitejs.dev/) and how to convert your
+[CRA to Vite](https://cathalmacdonnacha.com/migrating-from-create-react-app-cra-to-vite) here.
 
-### `npm test`
+Additionally [Tailwindcss](https://tailwindcss.com/) is added. I highly recommended learning about if you haven't already. Very powerful and simple to setup and use.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Finally there is the Typescript, it may seem like extra setup and work. Trust me, learn it to like it. I think anyone who is going to be a "Javascript Developer" will need to know Typescript.
 
-### `npm run build`
+## License and author information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[License](./LICENCE.md)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [J. McLain](htts://joshmclain.com)
