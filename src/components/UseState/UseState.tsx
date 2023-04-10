@@ -79,14 +79,14 @@ const State = () => {
           </p>
           <div className="w-1/2 inline-block">
             <h4 className="text-xl font-semibold">Class Component</h4>
-            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/lessons/CounterClass.tsx">
+            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/UseState/CounterClass.tsx">
               See on Github
             </a>
             <CounterClass />
           </div>
           <div className="w-1/2 inline-block">
             <h4 className="text-xl font-semibold">Functional Component</h4>
-            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/lessons/CounterFunc.tsx">
+            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/UseState/CounterFunc.tsx">
               See on Github
             </a>
             <CounterFunc />
