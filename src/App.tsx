@@ -1,6 +1,7 @@
 import React from "react";
 import Intro from "components/Intro";
-import UseState from "components/lessons/State";
+import UseState from "components/UseState/UseState";
+import UseEffect from "components/UseEffect";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <main className="container mx-auto">
         <Intro />
         <UseState />
+        <hr />
+        <UseEffect />
       </main>
     </div>
   );

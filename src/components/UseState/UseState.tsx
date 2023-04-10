@@ -13,10 +13,9 @@ const State = () => {
       <div>
         <h2 className="text-3xl font-semibold">useState</h2>
         <p>
-          The <span className="inline-code">useState</span> hook is a function
-          that returns a single value. It can be used to store and update a
-          state.
+          The <span className="inline-code">useState</span> is a React Hook that lets you add a state variable to your component.
         </p>
+        <p>It initializes state and auto assigns the a function the can directly mutate the state</p>
         <div>
           <h3 className="text-2xl font-semibold">Syntax</h3>
           <img src={example1} alt="example1" />
@@ -76,8 +75,7 @@ const State = () => {
         </div>
         <div className="space-y-3">
           <p>
-            It's that simple. Here are both of those examples in use. As you can
-            see they work exactly the same.
+            It's that simple. Here are both of those examples in use. They are exactly the same. you can learn more about the <span className="inline-code">useState</span> hook on the <a href="https://react.dev/reference/react/useState">official docs website.</a>
           </p>
           <div className="w-1/2 inline-block">
             <h4 className="text-xl font-semibold">Class Component</h4>
