@@ -9,6 +9,9 @@
     code {
         @apply bg-neutral-800 text-white font-mono p-4 border border-zinc-950 rounded;
     }
+    a {
+        @apply text-indigo-500 visited:text-blue-800;
+    }
 }
 
 @layer components {

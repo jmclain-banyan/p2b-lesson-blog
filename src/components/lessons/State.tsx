@@ -38,11 +38,11 @@ const State = () => {
             examples we'll compare the exact same initialization side by side.
           </p>
         </div>
-        <div className="w-1/2 inline-block">
+        <div>
           <h3 className="text-2xl font-semibold">Class Component</h3>
           <img src={example2} alt="example2" />
         </div>
-        <div className="w-1/2 inline-block">
+        <div>
           <h3 className="text-2xl font-semibold">Functional Component Hook</h3>
           <img src={example3} alt="example3" />
         </div>
@@ -81,12 +81,16 @@ const State = () => {
           </p>
           <div className="w-1/2 inline-block">
             <h4 className="text-xl font-semibold">Class Component</h4>
-            <a href="">See on Github</a>
+            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/lessons/CounterClass.tsx">
+              See on Github
+            </a>
             <CounterClass />
           </div>
           <div className="w-1/2 inline-block">
             <h4 className="text-xl font-semibold">Functional Component</h4>
-            <a href="">See on Github</a>
+            <a href="https://github.com/jmclain-banyan/p2b-lesson-blog/blob/main/src/components/lessons/CounterFunc.tsx">
+              See on Github
+            </a>
             <CounterFunc />
           </div>
         </div>
