@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-zinc-100 dark:bg-zinc-400 min-h-screen;
+    }
+    code {
+        @apply bg-neutral-800 text-white font-mono p-4 border border-zinc-950 rounded;
+    }
+}
+
+@layer components {
+    .inline-code {
+        @apply bg-neutral-700 text-white px-1 py-[1px] rounded;
+    }
+
+    .default-button {
+        @apply  text-white font-mono p-4 border border-zinc-950 rounded bg-gradient-to-t to-neutral-400 from-neutral-600;
+    }
+}
