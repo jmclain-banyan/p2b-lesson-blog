@@ -1,28 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useRef } from "react";
 import example1 from "assets/images/useEffect-syntax.png";
 import example2 from "assets/images/useEffect-example1.png";
 
 const UseEffect = () => {
-  const [data, setData] = useState<null | any[]>(null);
-
-  useEffect(() => {
-    if (data === null) {
-      (async function getData() {
-        try {
-          const response = await fetch(
-            "https://jsonplaceholder.typicode.com/posts"
-          );
-          if (response.status === 200) {
-            const jsonData = await response.json();
-            setData(jsonData);
-          }
-        } catch (error: unknown | any) {
-          console.log(error);
-          throw new Error(error);
-        }
-      })();
-    }
-  }, []);
 
   return (
     <article className="mt-10 pb-10">
